@@ -3,7 +3,7 @@ mkShell {
   buildInputs = [
     clang
     clang-tools
-    gdb
+    lldb
   ];
   shellHook = ''
     PATH="${pkgs.clang-tools}/bin:$PATH"
